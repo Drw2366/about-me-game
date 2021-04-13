@@ -1,6 +1,41 @@
+
+body {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+   
+
+
 p {
-background-color: aquamarine;
+background-color: rgb(5, 5, 5);
+display: block;
 margin: 0;
 text-indent: 3ch;
+border:5px dotted white;
+border-radius: 10px;
+color: rgb(252, 202, 4);
+width: 75%;
+}
 
+ol {
+    background-color: rgb(226, 43, 43);
+    border: 5px dotted rgb(20, 220, 53);
+    border-radius: 5px;
+    color: rgb(208, 255, 0);
+    width:200px;
+    animation-name: example;
+    animation-duration: 10s;
+    ;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: rgb(255, 0, 191);}
+    50%  {background-color: rgb(0, 183, 255);}
+    100% {background-color: rgb(1, 5, 1);}
+  }
+
+footer {
+    background-color: coral;
+    color: rgb(2, 221, 250);
+    width: 75px;
 }
